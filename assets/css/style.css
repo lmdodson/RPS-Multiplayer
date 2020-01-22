@@ -1,0 +1,11 @@
+body {
+    background: turquoise;
+}
+
+.jumbotron {
+    background: darkorchid;
+}
+
+.card-header {
+    background: dimgray;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- reset/Bootstrap -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- javascript/jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
+    <title>RPS Game</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">RockPaperScissors</h1>
+            <p class="lead">Classic game meets modern technology. Do you have what it takes to win in this multiplayer
+                arena?</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Add Player  -->
+            <div class="card mb-4">
+                <div class="card-header">Sign In to Play</div>
+                <div class="card-body">
+                    <!-- Entry Form -->
+                    <form>
+                        <div class="form-group">
+                            <label for="player-name-input">First Name</label>
+                            <input class="form-control" id="player-name-input" placeholder="Bob" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="email-input">Email</label> <input class="form-control" id="email-input"
+                                placeholder="bob@bobmail.com" type="text">
+                        </div>
+                        <button class="btn btn-primary float-right" id="add-player-btn">Submit</button>
+                    </form>
+</body>
+
+</html>
